@@ -1,0 +1,69 @@
+@media all and (min-device-width: 768px) and (max-device-width: 1300px)
+	{
+		.index .top{
+			padding-bottom: 5px;
+		}
+		.index .top .logo{
+			margin-left: 40px;
+			margin-top: 2px;
+		}
+		.index .top .menu{
+			margin-right: 0.5%;
+			width: 60%;
+			margin-top: 20px;
+			}
+		.index .banner{
+			height: 300px;
+			font-size: 10px;
+		}
+		.index .banner .textt{
+			margin-top: 2%;
+			width: 40%;
+			margin-left: 40px;
+		}
+		.index .banner h3{
+			font-size: 20px;
+		}
+		.index .banner p{
+			font-size: 14px;
+		}
+		.index .main_1 .clothing{
+		 width: 100%;
+		 margin-left: 40px;
+		}
+		.index .main_1 .clothing ul li{
+		 margin-right: 10px;
+		 overflow: hidden;
+		}
+	}
+@media all and (min-device-width: 10px)  and (max-device-width: 765px) {
+		.index .top{
+			height: 300px;
+		}
+		.index .top .logo{
+			margin-left: 2%;
+			margin-top: 2%;
+		}
+		.index .top .logo h3{
+			font-size: 70px;
+		}
+		.index .top .logo p{
+			font-size: 40px;
+		}
+		.index .top .menu li{
+			float: none;
+			display: none;
+		}
+		.index .top .menu_2{
+			display: block;
+		}
+			.index .top .menu ul:before{
+				display: none;
+			}
+				.index .top .menu_2:before{
+					content:url("../images/shop.png");
+					height: 20px;
+					width: 20px;
+					cursor: pointer;
+				}
+	}	

@@ -20,7 +20,7 @@ window.onload = function(){
 					return;
 				}
 				var myIndex = parseInt(this.getAttribute('index'));
-				var offset = - 274 * ( myIndex - index );
+				var offset = - 300 * ( myIndex - index );
 				index = myIndex;
 				mobile.style.left = offset +'px';
 				baner();
