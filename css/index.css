@@ -1,0 +1,225 @@
+	h1, p, a, img, * {
+	    margin: 0;
+	    padding: 0;
+	    list-style: none;
+	}
+
+	a{
+		color:#fff;
+		font-size: 100%;
+		text-decoration: none;
+	}
+
+	img {
+    	border: medium none;
+    	vertical-align: middle;
+	}
+
+	* {
+    	margin: 0;
+    	padding-top: 0;
+	}
+
+	body {
+   	 	color: #fff;
+		font-size: 100%;
+		margin: 0px;
+		width: 100%;
+	}
+
+	@media (max-width: 650px) {
+		html {
+	    		font-size: 70%;
+			}
+	}
+
+	.clear 
+	{
+   	 	clear: both;
+	}
+
+	.index{
+		overflow:hidden;
+	}
+		.index .top{
+			position: relative;
+			width: 100%;
+			background:#000;
+			overflow: hidden;
+			padding-bottom: 1%;
+		}
+			.index .top .logo{
+				margin-top: 0.8%;
+				margin-left: 20%;
+				float: left;
+				width: 20%;
+			}
+				.index .top .logo h3{
+				font-size: 18pt;
+				}
+				.index .top .logo p{
+				font-size: 10pt;
+				}
+			.index .top .menu{
+				margin-top: 1.4%;
+				margin-right: 8%;
+				float: right;
+				width: 45%;
+			}
+				.index .top .menu li{
+					float: left;
+					margin:0 18px;
+					cursor:pointer;
+					word-break:break-all;
+					font-size: 16px;
+				}
+				.index .top .menu ul:before{
+					content:url("../images/shop.png");
+					height: 5px;
+					width: 5PX;
+					cursor: pointer;
+					margin-left: 20px;
+				}
+					.index .top .menu li:hover{
+						color: #fab000;
+					}
+		.index .banner{
+			width: 100%;
+			overflow: hidden;
+			height: 600px;	
+		}
+			.index .banner .slogan{
+				width: 100%;
+				position: relative;
+			}
+				.index .banner{
+					background: url(../images/banner1.jpg) center / cover;
+					z-index: 999;
+					left: 0;
+					top:0;
+					position: relative;
+					width: 100%;
+					height: 600px;
+				}
+					.index .banner .textt{
+						position: relative;
+						margin-top:8%;
+						margin-left: 15%;
+						width: 32%;
+					}
+					.index .banner h3{
+						font-size: 40px;
+						margin-bottom: 5%;				
+					}
+					.index .banner p{
+						font-size: 18px;
+						margin-bottom: 5%;	
+					}
+					.index .banner .butt a{
+						font-size: 16px;
+						padding: 12px 32px;
+						background:#f9b520;
+						border-radius: 8px;
+						font-family: "Helvetica",Sans-serif;
+						border-style: solid;
+						border-color: #f9b520;
+						border-width: 2px;
+					}
+					.index .banner .butt a:hover{
+						background-color: rgba(255,255,255,0);
+						color:#f9b520;
+					}
+		.index .main_1 {
+			width: 100%;
+			height: 600px;
+			color: #000;
+			background-color: #e6e9ec;
+			
+		}	
+			.index .main_1 .clothing{
+				margin:0 auto;
+				width: 1370px;
+				overflow: hidden;	
+			}
+				.index .main_1 .clothing h3{				
+					font-size: 28px;
+					width: 100%;
+					text-align: center;
+					padding: 40px 0;
+				}
+				.index .main_1 .clothing ul{
+					overflow:hidden;
+					width: 4000px;
+					cursor: pointer;
+					position:relative;
+					transition: all 1s linear;
+				}
+					.index .main_1 .clothing ul li{
+						text-align: center;
+						float: left;
+						margin-right: 20px;
+						color: #000;
+						display: block;
+						background-color: #fff;
+					}
+					.index .main_1 .clothing .bef{
+					    position: relative;
+
+					}
+						.index .main_1 .clothing .bef:before{
+						    background: #000;
+						    content: "";
+						    position: absolute;
+						    top: 0;
+						    left: 0;
+						    height: 100%;
+						    width: 100%;
+						    opacity: 0;
+						}		
+							.index .main_1 .clothing .bef:hover:before{
+							    opacity: 0.8;
+
+							}				
+							.index .main_1 .clothing .bef:hover a.but{
+								opacity:1;
+							}	
+						.index .main_1 .clothing .bef img{
+							height:270px;
+							width:254px;
+							margin: 0 auto;
+						}
+						.index .main_1 .clothing .bef .but{
+	   						padding: 10px 16px;
+	   						position: absolute;
+	   						top:40%;
+	   						left:35%;
+	   						border:1px solid #fff;
+	   						opacity: 0;
+	   						font-size: 24px;
+						}						
+					.index .main_1 .clothing p{
+						color: #000;
+						font-size: 20px;
+						margin:10px;
+						font-family: 'Helvetica', sans-serif;
+					}
+					.index .main_1 .clothing .dloth{
+						position: relative;
+						margin-top: 20px;
+						left:47%;
+						height: 20px;
+					}			
+						.index .main_1 .clothing .dloth span{
+							cursor: pointer;
+							float: left;
+							border: 1px solid #fff;
+							width: 10px;
+							height:10px;
+							border-radius:50%;
+							background: #333;
+							margin-right: 5px;
+						}
+						.index .main_1 .clothing .dloth .on{
+							background: #f9b520;
+						}			
+						
