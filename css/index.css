@@ -36,15 +36,21 @@
 		overflow:hidden;
 	}
 		.index .top{
-			position: relative;
+			position: fixed;
 			width: 100%;
 			background:#000;
 			overflow: hidden;
-			padding-bottom: 1%;
+			padding-bottom: 10px;
+			top: 0;
+			z-index: 999;
+
 		}
+			.index .tob{
+				margin:0 auto;
+				max-width: 1140px;
+			}
 			.index .top .logo{
-				margin-top: 0.8%;
-				margin-left: 15%;
+				margin-top: 5px;
 				float: left;
 				width: 20%;
 			}
@@ -56,10 +62,9 @@
 				font-size: 10pt;
 				}
 			.index .top .menu{
-				margin-top: 1.4%;
-				margin-right: 5%;
+				padding-top: 20px;
+				margin-right:1%;
 				float: right;
-				width: 50%;
 			}
 				.index .top .menu li{
 					float: left;
@@ -95,6 +100,9 @@
 			    width: 100%;
 			    left: 0;
 			}
+		.index .top_2{
+			height: 63px;
+		}	
 		.index .banner{
 			width: 100%;
 			overflow: hidden;
@@ -106,7 +114,6 @@
 			}
 				.index .banner{
 					background: url(../images/banner1.jpg) center / cover;
-					z-index: 999;
 					left: 0;
 					top:0;
 					position: relative;
@@ -116,7 +123,7 @@
 					.index .banner .textt{
 						position: relative;
 						margin-top:8%;
-						margin-left: 15%;
+						margin-left: 18%;
 						width: 32%;
 					}
 					.index .banner h3{
@@ -148,7 +155,7 @@
 		}	
 			.index .main_1 .clothing{
 				margin:0 auto;
-				max-width: 1300px;
+				max-width: 1140px;
 			}
 				.index .main_1 .clothing h3{				
 					font-size: 28px;
@@ -158,7 +165,7 @@
 				}
 				.index .main_1 .clothing ul{
 					overflow:hidden;
-					width: 100%;
+					max-width: 1140px;
 					cursor: pointer;
 					position:relative;
 					transition: all 1s linear;
@@ -167,10 +174,10 @@
 					.index .main_1 .clothing ul li{
 						text-align: center;
 						float: left;
-						margin-right: 20px;
+						margin-right: 25px;
 						color: #000;
 						display: block;
-						width: 23%;
+						width: 250px;
 					}
 					.index .main_1 .clothing .bef{
 					    position: relative;
@@ -195,7 +202,7 @@
 						}
 						.index .main_1 .clothing .bef img{
 							height:300px;
-							width:300px;
+							width:250px;
 							margin: 0 auto;
 							border: 1px solid #B5B5B6;
 						}
@@ -237,7 +244,7 @@
 			background-color: #000;
 			width: 100%;
 			height: 300px;
-			margin-bottom: 40px;
+			margin-bottom: 30px;
 			position: relative;
 		}
 			.index .interval h3{
@@ -249,7 +256,7 @@
 			.index .interval h4{
 				position: absolute;
 				left: 40%;
-				top:45%;
+				top:48%;
 				font-size: 35px;
 				font-weight: 300;
 			}
@@ -259,19 +266,99 @@
 				margin-bottom: 20px;
 			}
 			.index .main_2 ul{
-				margin-left:25%;
+			margin:0 auto;
+			max-width: 1140px;
 			}
 			.index .main_2 ul li{
-				float: left;
-				border-right: 1px solid #000;
-				width:22%;
+				float: left;				
+				width:24%;
 				margin:0 1%;
+				padding: 20px 40px;
+			}
+			.index .main_2 ul li h4{
+				font-size: 22px;
+				color: #989898;
+				font-weight:400;
+			}
+			.index .main_2 .FEATURED,.SALE{
+				border-right: 1px solid #000;
 			}
 			.index .main_2 ul li img{
 				width: 70px;
 				height: 104px;
 				border: 1px solid #B5B5B6;
+				float: left;
+				margin-right: 15px;				
+			}
+			.index .main_2 ul li .mi{
+				display: block;
+				width: 80%;
+				height: 104px;
+				margin-top: 10px;
 			}
 			.index .main_2 ul li p{
-				display: block;
+				padding-top: 5px;
 			}
+	.index .map{
+		height: 300px
+	}		
+	.index .map iframe{
+		width: 100%;
+		max-width: 100%;
+		height: 300px
+	}
+	.index .bottm{
+		background-color: #000;
+		height: 250px;
+		width: 100%;
+		padding-top: 5%;
+	}
+	.index .bottm .bot_1{
+		width: 50%;
+		float: left;
+		margin-left: 18%;
+		padding-right: 6%;
+	}
+	.index .bottm .bot_1 h3{
+		font-size: 24px;
+		padding-bottom: 15px;
+	}
+	.index .bottm .bot_2{
+		width: 15%;
+		float: left;
+	}
+	.index .bottm p{
+		font-weight: 300;
+		font-size: 14px;
+		line-height: 24px;
+	}
+	.index .bottm .bot_2 h3{
+		padding-bottom: 20px;
+		font-size: 24px;
+	}
+	.index .bottm .bot_2 span{
+		font-size: 18px;
+		line-height:5px;
+		font-weight:bold;
+	}
+	.index .bottm .bot_2 .phone,.maps,.mail{
+		padding-bottom: 15px;;
+	}
+	.index .bottm .bot_2 .phone:before{
+		content:url("../images/phone.png");
+		padding-right: 10px;
+		vertical-align:middle;
+  		display:inline-block;
+	}
+	.index .bottm .bot_2 .maps:before{
+		content:url("../images/maps.png");
+		padding-right: 10px;
+		vertical-align:middle;
+  		display:inline-block;
+	}
+	.index .bottm .bot_2 .mail:before{
+		content:url("../images/mail.png");
+		padding-right: 10px;
+		vertical-align:middle;
+  		display:inline-block;
+	}
