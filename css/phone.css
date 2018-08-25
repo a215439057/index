@@ -38,4 +38,61 @@
 					float: left;
     				padding-top: 60px;
 				}
-		.index .banner
+		.index .bann{
+			height: 800px;
+		}	
+		.index .banner .textt h3{
+			font-size: 60px;
+			padding-bottom: 40px;
+		}	
+		.index .banner .textt p{
+			font-size: 35px;
+			padding-right:170px;
+		}
+		.index .banner .butt{
+			padding-top:30px;
+			padding-left: 60px;
+		}
+		.index .banner .butt a{
+			font-size: 60px;
+			padding:20px 30px;
+		} 
+		.index .main_1{
+			height: 1860px;
+		}
+		.index .main_1 .clothing h3{
+			text-align: center;
+			font-size: 60px;
+			font-weight: 500;
+			padding-bottom: 200px;
+		}
+		.index .main_1 .clothing ul {
+			overflow: visible;
+		}
+		.index .main_1 .clothing ul li{
+			width: 45%;
+			padding-bottom: 40px;	
+			
+		}
+		.index .main_1 .clothing .bef img{
+			height: 500px;
+			width: 420px;
+		}
+		.index .main_1 .clothing p{
+			font-size: 45px;	
+		}
+		.index .main_1 .clothing .butn{
+			padding:20px;
+			font-size: 36px;
+			margin-left:20%;
+			width: 60%;
+		}
+		.index .interval h3{
+			font-size: 60px;
+		}
+		.index .interval p{
+			font-size: 45px;
+		}
+		.index .main_2 ul li{
+			width: 100%;
+		}
