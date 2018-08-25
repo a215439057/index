@@ -1,0 +1,41 @@
+		@media (max-width:767px) 
+		{}
+		.index .top{
+			height: 300px;
+		}
+		.index .top_2{
+			height: 315px;
+		}
+		.index .top .menu{
+			display: none;
+		}
+
+		.index .top .logo{
+			margin-left: 2%;
+			margin-top: 2%;
+		}
+		.index .top .logo h3{
+			font-size: 70px;
+		}
+
+		.index .top .logo p{
+			font-size: 40px;
+		}
+		.index .top .menu li{
+			float: none;
+			display: none;
+		}
+		.index .top .menu_2{
+			display: block;
+		}
+
+			.index .top .menu ul:before{
+				display: none;
+			}
+				.index .top .menu_2:before{
+					content:url("../images/shop-2.png");
+					letter-spacing: 1px;
+					float: left;
+    				padding-top: 60px;
+				}
+		.index .banner
