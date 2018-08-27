@@ -1,5 +1,5 @@
 		@media (max-width:767px) 
-		{}
+		{
 		.index .top{
 			height: 300px;
 		}
@@ -96,3 +96,4 @@
 		.index .main_2 ul li{
 			width: 100%;
 		}
+	}
