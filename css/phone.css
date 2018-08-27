@@ -1,5 +1,5 @@
 		@media (max-width:767px) 
-		{}
+		{
 		.index .top{
 			height: 143px;
 		}
@@ -186,3 +186,4 @@
 			width: 100%;
 			padding: 5% 0;	
 		}
+	}
