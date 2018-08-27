@@ -1,10 +1,11 @@
 		@media (max-width:767px) 
-		{
+		{}
 		.index .top{
-			height: 300px;
+			height: 143px;
 		}
 		.index .top_2{
-			height: 315px;
+			height: 154px;
+			
 		}
 		.index .top .menu{
 			display: none;
@@ -12,14 +13,14 @@
 
 		.index .top .logo{
 			margin-left: 2%;
-			margin-top: 2%;
+			margin-top: 1%;
 		}
 		.index .top .logo h3{
-			font-size: 70px;
+			font-size: 50px; 
 		}
 
 		.index .top .logo p{
-			font-size: 40px;
+			font-size: 35px;
 		}
 		.index .top .menu li{
 			float: none;
@@ -36,14 +37,21 @@
 					content:url("../images/shop-2.png");
 					letter-spacing: 1px;
 					float: left;
-    				padding-top: 60px;
+    				margin-left: -150px;
+    				margin-top: -10px;
+				}
+		.index .banner{
+			background: url(../images/banner2.jpg);
 				}
 		.index .bann{
 			height: 800px;
 		}	
+		.index .banner .textt{
+			padding-left: 20%;
+		}
 		.index .banner .textt h3{
 			font-size: 60px;
-			padding-bottom: 40px;
+			padding-bottom: 20px;
 		}	
 		.index .banner .textt p{
 			font-size: 35px;
@@ -51,7 +59,7 @@
 		}
 		.index .banner .butt{
 			padding-top:30px;
-			padding-left: 60px;
+			padding-left: 12%;
 		}
 		.index .banner .butt a{
 			font-size: 60px;
@@ -83,7 +91,7 @@
 		}
 		.index .main_1 .clothing .butn{
 			padding:20px;
-			font-size: 36px;
+			font-size: 24px;
 			margin-left:20%;
 			width: 60%;
 		}
@@ -93,7 +101,88 @@
 		.index .interval p{
 			font-size: 45px;
 		}
+		.index .main_2 ul{
+			width: 90%;
+			padding:10% 15%;
+		}		
 		.index .main_2 ul li{
 			width: 100%;
+			margin: 0 auto;
+		}		
+		.index .main_2 ul li h4{
+			font-size: 60px;
 		}
-	}
+		.index .main_2 ul li .mi{
+			width: 100%;
+			height: 306px;
+			padding: 5px 0;
+		}
+		.index .main_2 ul li .mi img{
+			width: 240px;
+			height: 306px;
+		}
+		.index .main_2 ul li p{
+			font-size: 40px;	
+		}
+		.index .main_2 .SALE{
+			border: none;
+		}
+		.index .map {
+			height: 380px;
+		}
+		.index .map iframe{
+			height: 380px;
+		}
+		.index .bottm{
+			height:1900px;
+		}
+		.index .bottm .bot_1{
+			float: none;
+			margin: 0 auto;
+			width: 82%;
+		}
+		.index .bottm .bot_1 h3{
+			font-size: 60px;
+			padding:5% 0;
+		}
+		.index .bottm .bot_1 p{
+			font-size:40px;
+			opacity: 0.6;
+			line-height: 55px;
+		}
+		.index .bottm {
+			padding-top: 2%;
+		}
+		.index .bottm .bot_2{
+			width: 88%;
+			float: none;
+			margin: 0 auto;
+		}
+		.index .bottm .bot_2 h3{
+			font-size: 60px;
+			padding:5% 0;
+		}
+		.index .bottm .bot_2 span{
+			font-size: 36px;
+			line-height: normal;
+			text-align: center;
+			letter-spacing:8px;
+		}
+		.index .bottm .bot_2 div{
+			text-align: center;
+		}
+		.index .bottm .bot_2 .phone:before{
+			content:url("../images/phone-2.png");
+			width: 100%;
+			padding: 5% 0;		
+		}
+		.index .bottm .bot_2 .maps:before{
+			content:url("../images/maps-2.png");
+			width: 100%;
+			padding: 5% 0;	
+		}
+		.index .bottm .bot_2 .mail:before{
+			content:url("../images/mail-2.png");
+			width: 100%;
+			padding: 5% 0;	
+		}
