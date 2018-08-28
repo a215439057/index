@@ -29,36 +29,36 @@ window.onload = function(){
 		// }
 	// window.onclick=function(){
 	// 		if (i=1) {
-	// 			if(document.getElementById('top_2').onclick){
+	// 			if(document.getElementById('tob_2').onclick){
 	// 					return;
 	// 			}
 	// 			else{
-	// 				document.getElementById('top_2').style ="display:none";
+	// 				document.getElementById('tob_2').style ="display:none";
 	// 				i=0;
 	// 			}
 	// 		}
 	// }
-	if(window.pageYOffset != '0'){
-		document.getElementById("top").style="height :120px";
-		document.getElementById("men").style= "padding-top : 120px";
-	}
 	document.getElementById('menu_2').onclick=function(){
-		document.getElementById('top_2').style ="display:inline-block";
+		if (document.getElementById('men').offsetLeft=="-280") 
+			{
+				document.getElementById('men').style ="left:0px";
+			}
+		else{
+			document.getElementById('men').style ="left:-280px";
+		}
+
 	}
-
 }
-function cc(){
 
-}
 window.onscroll=function()
 {	
-	var top =document.getElementById("top");
-	if (top.style.height =="143px") {
-		top.style.height="120px";
-		document.getElementById("men").style= "padding-top : 120px";
+	var tob =document.getElementById("tob");
+	if (tob.clientHeight =="73"&& window.pageYOffset != '0') {
+		document.getElementById("top").style.height="53px";
+		tob.style.height="53px";
 	}
 	if(window.pageYOffset == '0'){
-		top.style.height ="143px";
-		document.getElementById("men").style= "padding-top : 153px";
+		document.getElementById("top").style.height="73px";
+		tob.style.height ="73px";
 	}
 }

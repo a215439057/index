@@ -40,19 +40,23 @@
 		.index .top{
 			position: fixed;
 			width: 100%;
-			background:#000;
-			overflow: hidden;
-			padding-bottom: 10px;
-			top: 0;
 			z-index: 999;
-			transition: all 0.5s;
+			background:#000;
+		}
+		.index .top_2{
+			height: 73px;		
 		}
 			.index .tob{
-				margin:0 auto;
-				max-width: 1140px;
+			margin:0 auto;
+			height: 73px;
+			background:#000;
+			overflow: hidden;
+			top: 0;
+			transition: all 0.5s;
+			max-width: 1140px;
 			}
 			.index .top .logo{
-				margin-top: 10px;
+				margin-top: 5px;
 				float: left;
 				width: 20%;	
 			}
@@ -87,11 +91,11 @@
 					}
 		.index .top .menu_2{
 			cursor: pointer;
-			width: 72px;
-	    	height: 62px;
+			width: 30px;
+	    	height: 20px;
 	    	position: absolute;
-	    	top: 50px;
-	    	right: 60px;
+	    	top: 25%;
+	    	right: 10%;
 		}
 		.index .top .menu_2 ul{
 			display: none;
@@ -99,38 +103,34 @@
 		
 			.index .top .menu_2 span{
 				background-color: #fff;
-				display: none;
-			    margin-bottom: 12px;
-			    height: 8px;
+			    margin-bottom: 6px;
+			    height: 3px;
 			    width: 100%;
 			    left: 0;
 			    cursor: pointer;
 			}
 
 		.index .top_2{
-			height: 63px;
+			height: 73px;
 			position: static;
 			background-color: #000;
 			display: block;
 		}	
-		.index .top_2 .men{
-				position:fixed;
-				left: 0;
-				top: 0;
-				width: 70%;
-				height: 100%; 
+		.index .men{
+				position:absolute;
+				left: -280px;
+				width: 280px;
+				height: 100vh; 
 				background-color: #0e0e0e;
 				z-index: 99;
-				padding-top: 153px;
-				transition: all 1s
-				
+				transition: all 0.5s;	
 			}
-		.index .top_2 .men ul li{
-			padding: 22px 20px !important;
-			font-size: 40px;
+		.index  .men ul li{
+			padding: 8px 10px !important;
+			font-size: 18px;
 			width: 70%;
 		}	
-		.index .top_2 .men .org{
+		.index  .men .org{
 			background-color:#fab000;
 		}
 		.index .bann{

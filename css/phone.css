@@ -1,35 +1,30 @@
-		@media (max-width:767px) 
+		@media only screen and (max-width: 767px) 
 		{
 		.index .top{
-			height: 143px;
+			height: 73px;
 		}
 		.index .top_2{
-			height: 154px;
-			
+			height: 73px;		
 		}
 		.index .top .menu{
-			display: none;
-		}
-
-		.index .top .logo{
-			margin-left: 2%;
-			margin-top: 1%;
-		}
-		.index .top .logo h3{
-			font-size: 50px; 
-		}
-
-		.index .top .logo p{
-			font-size: 35px;
-		}
-		.index .top .menu li{
-			float: none;
-			display: none;
-		}
-		.index .top .menu_2{
 			display: block;
 		}
 
+		.index .top .logo{
+			margin-left: 10px;
+			margin-top: 5px;
+		}
+		.index .top .menu {
+			float: none;
+			display: none;
+		}
+
+		.index .top .menu_2{
+			display: block;
+		}
+			.index .top .menu_2 span{
+				display: block;
+			}
 			.index .top .menu ul:before{
 				display: none;
 			}
@@ -37,92 +32,84 @@
 					content:url("../images/shop-2.png");
 					letter-spacing: 1px;
 					float: left;
-    				margin-left: -150px;
-    				margin-top: -10px;
+    				margin-left: -40px;
+    				margin-top: -5px;
 				}
 		.index .banner{
 			background: url(../images/banner2.jpg);
 				}
 		.index .bann{
-			height: 800px;
+			height: 450px;
 		}	
 		.index .banner .textt{
-			padding-left: 20%;
+			padding-left: 10%;
 		}
 		.index .banner .textt h3{
-			font-size: 60px;
+			font-size: 32px;
 			padding-bottom: 20px;
 		}	
 		.index .banner .textt p{
-			font-size: 35px;
+			font-size: 18px;
 			padding-right:170px;
+			width: 90%;
+			font-weight: 200;
 		}
 		.index .banner .butt{
 			padding-top:30px;
 			padding-left: 12%;
 		}
 		.index .banner .butt a{
-			font-size: 60px;
-			padding:20px 30px;
+			font-size: 18px;
+			padding:10px 20px;
 		} 
 		.index .main_1{
-			height: 1860px;
+			height: 760px;
 		}
 		.index .main_1 .clothing h3{
-			text-align: center;
-			font-size: 60px;
+			font-size: 40px;
 			font-weight: 500;
-			padding-bottom: 200px;
+			padding-bottom: 20px;
 		}
 		.index .main_1 .clothing ul {
 			overflow: visible;
 		}
 		.index .main_1 .clothing ul li{
-			width: 45%;
-			padding-bottom: 40px;	
-			
+			width: 40%;
+			padding-bottom: 20px;				
 		}
 		.index .main_1 .clothing .bef img{
-			height: 500px;
-			width: 420px;
-		}
-		.index .main_1 .clothing p{
-			font-size: 45px;	
-		}
+			height: 160px;
+			width: 140px;
+		}	
 		.index .main_1 .clothing .butn{
-			padding:20px;
-			font-size: 24px;
 			margin-left:20%;
 			width: 60%;
 		}
-		.index .interval h3{
-			font-size: 60px;
+		.index .interval {
+			height: 200px;
 		}
-		.index .interval p{
-			font-size: 45px;
+		.index .interval h3{
+			font-size: 26px;
+		}
+		.index .interval h4{
+			font-size: 20px;
 		}
 		.index .main_2 ul{
-			width: 90%;
-			padding:10% 15%;
+			width: 90%;	
+			padding-left: 5%;	
 		}		
 		.index .main_2 ul li{
-			width: 100%;
+			width: 90%;
 			margin: 0 auto;
 		}		
-		.index .main_2 ul li h4{
-			font-size: 60px;
-		}
 		.index .main_2 ul li .mi{
 			width: 100%;
-			height: 306px;
+			height: 106px;
 			padding: 5px 0;
 		}
 		.index .main_2 ul li .mi img{
-			width: 240px;
-			height: 306px;
-		}
-		.index .main_2 ul li p{
-			font-size: 40px;	
+			width: 90px;
+			height: 120px;
 		}
 		.index .main_2 .SALE{
 			border: none;
@@ -134,7 +121,7 @@
 			height: 380px;
 		}
 		.index .bottm{
-			height:1900px;
+			height:720px;
 		}
 		.index .bottm .bot_1{
 			float: none;
@@ -142,13 +129,10 @@
 			width: 82%;
 		}
 		.index .bottm .bot_1 h3{
-			font-size: 60px;
 			padding:5% 0;
 		}
 		.index .bottm .bot_1 p{
-			font-size:40px;
 			opacity: 0.6;
-			line-height: 55px;
 		}
 		.index .bottm {
 			padding-top: 2%;
@@ -159,11 +143,11 @@
 			margin: 0 auto;
 		}
 		.index .bottm .bot_2 h3{
-			font-size: 60px;
+			
 			padding:5% 0;
 		}
 		.index .bottm .bot_2 span{
-			font-size: 36px;
+			
 			line-height: normal;
 			text-align: center;
 			letter-spacing:8px;
@@ -172,18 +156,15 @@
 			text-align: center;
 		}
 		.index .bottm .bot_2 .phone:before{
-			content:url("../images/phone-2.png");
 			width: 100%;
-			padding: 5% 0;		
+			padding: 1% 0;		
 		}
 		.index .bottm .bot_2 .maps:before{
-			content:url("../images/maps-2.png");
 			width: 100%;
-			padding: 5% 0;	
+			padding: 1% 0;	
 		}
 		.index .bottm .bot_2 .mail:before{
-			content:url("../images/mail-2.png");
 			width: 100%;
-			padding: 5% 0;	
+			padding: 1% 0;	
 		}
 	}
