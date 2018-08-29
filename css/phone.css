@@ -127,7 +127,7 @@
 			height: 380px;
 		}
 		.index .bottm{
-			height:760px;
+			height:720px;
 		}
 		.index .bottm .bot_1{
 			float: none;
@@ -174,3 +174,30 @@
 			padding: 1% 0;	
 		}
 	}
+	.index .main_3{
+		padding-bottom: 80px;
+	}
+	.talk_con{
+            width:300px;
+            height:250px;
+            margin:20px auto 0;
+        }
+        .talk_show{
+            width:290px;
+            height:210px;
+            margin:10px auto 0;
+        }
+        .talk_input{
+            width:290px;
+        }
+        .whotalk{
+            width:80px;
+            height:30px;
+        }
+        .talk_word{
+            width:210px;
+        }        
+        .talk_sub{
+            width:56px;
+            height:30px;
+        }
