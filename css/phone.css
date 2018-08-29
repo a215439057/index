@@ -35,6 +35,12 @@
     				margin-left: -40px;
     				margin-top: -5px;
 				}
+		.fix .qr{
+				width: 40%;
+				position: fixed;
+				top: 40%;
+				left: 30%;
+			}		
 		.index .banner{
 			background: url(../images/banner2.jpg);
 				}
@@ -121,7 +127,7 @@
 			height: 380px;
 		}
 		.index .bottm{
-			height:720px;
+			height:760px;
 		}
 		.index .bottm .bot_1{
 			float: none;

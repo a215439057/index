@@ -42,9 +42,11 @@
 			width: 100%;
 			z-index: 999;
 			background:#000;
+			transition: all 0.5s;
 		}
 		.index .top_2{
-			height: 73px;		
+			height: 73px;
+
 		}
 			.index .tob{
 			margin:0 auto;
@@ -109,7 +111,39 @@
 			    left: 0;
 			    cursor: pointer;
 			}
-
+		.fix {
+			position: fixed;
+			right: 0;
+			top: 50%;
+			width: 52px;
+			height: 150px;
+			z-index: 998;
+			background-color: #fff;
+			border-radius: 2px; 
+		}
+			.fix a{
+				position: relative;
+				display:inline-block; 
+				width: 48px;
+				height: 40px;
+				margin:5px 2px;
+			}
+			.fix  img{
+				height: 100%;
+			}
+			.fix .qr{
+				width: 10%;
+				position: fixed;
+				top: 50%;
+				left: 50%;
+				display: none;
+			}
+			.fix .wechat:hover .qr{
+				display: inline-block;
+			}
+			.fix .qr img{
+				width: 100%;
+			}
 		.index .top_2{
 			height: 73px;
 			position: static;
@@ -343,6 +377,13 @@
 			.index .main_2 ul li p{
 				padding-top: 5px;
 			}
+	.index .main_3{
+		width: 100%;
+		max-width: 1140px;
+		background-color: #000;
+		height: 1000px;
+		margin: 0 auto;
+	}	
 	.index .map{
 		height: 300px
 	}		
