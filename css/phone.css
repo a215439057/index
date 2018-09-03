@@ -1,18 +1,16 @@
 		@media only screen and (max-width: 767px) 
 		{
+		.index .logo h3{
+			font-size: 18px;
+		}	
 		.index .top{
 			height: 73px;
 		}
-		.index .top_2{
-			height: 73px;		
+		.index .tob{
+			margin-top: 0;
 		}
 		.index .top .menu{
 			display: block;
-		}
-
-		.index .top .logo{
-			margin-left: 10px;
-			margin-top: 5px;
 		}
 		.index .top .menu {
 			float: none;
@@ -28,25 +26,19 @@
 			.index .top .menu ul:before{
 				display: none;
 			}
-				.index .top .menu_2:before{
+				/*.index .top .menu_2:before{
 					content:url("../images/shop-2.png");
 					letter-spacing: 1px;
-					float: left;
-    				margin-left: -40px;
-    				margin-top: -5px;
-				}
+				}*/
 		.fix .qr{
 				width: 40%;
 				position: fixed;
 				top: 40%;
 				left: 30%;
-			}		
-		.index .banner{
-			background: url(../images/banner2.jpg);
-				}
+			}
 		.index .bann{
-			height: 450px;
-		}	
+			min-height:100%;
+		}			
 		.index .banner .textt{
 			padding-left: 10%;
 		}
@@ -70,18 +62,22 @@
 		} 
 		.index .main_1{
 			height: 760px;
+			margin: 0 auto;
+			width: 80%;
 		}
 		.index .main_1 .clothing h3{
 			font-size: 40px;
 			font-weight: 500;
 			padding-bottom: 20px;
+			text-align: center;
 		}
 		.index .main_1 .clothing ul {
 			overflow: visible;
+			width: 100%;
 		}
 		.index .main_1 .clothing ul li{
 			width: 40%;
-			padding-bottom: 20px;				
+			padding-bottom: 20px;		
 		}
 		.index .main_1 .clothing .bef img{
 			height: 160px;
@@ -126,54 +122,16 @@
 		.index .map iframe{
 			height: 380px;
 		}
-		.index .bottm{
-			height:720px;
-		}
 		.index .bottm .bot_1{
-			float: none;
-			margin: 0 auto;
-			width: 82%;
-		}
-		.index .bottm .bot_1 h3{
-			padding:5% 0;
-		}
-		.index .bottm .bot_1 p{
-			opacity: 0.6;
-		}
-		.index .bottm {
-			padding-top: 2%;
+			margin-bottom: 10px;
 		}
 		.index .bottm .bot_2{
-			width: 88%;
-			float: none;
-			margin: 0 auto;
+			padding-top: 0;
 		}
-		.index .bottm .bot_2 h3{
-			
-			padding:5% 0;
-		}
-		.index .bottm .bot_2 span{
-			
-			line-height: normal;
-			text-align: center;
-			letter-spacing:8px;
-		}
-		.index .bottm .bot_2 div{
-			text-align: center;
-		}
-		.index .bottm .bot_2 .phone:before{
+		.index .bottm .bot_2 a{
+			padding-top:5px;
 			width: 100%;
-			padding: 1% 0;		
 		}
-		.index .bottm .bot_2 .maps:before{
-			width: 100%;
-			padding: 1% 0;	
-		}
-		.index .bottm .bot_2 .mail:before{
-			width: 100%;
-			padding: 1% 0;	
-		}
-	}
 	.index .main_3{
 		padding-bottom: 80px;
 	}
@@ -201,3 +159,6 @@
             width:56px;
             height:30px;
         }
+
+	}
+	

@@ -1,29 +1,9 @@
-@media only screen and (max-width: 1280px) 
+@media only screen and (max-width: 1280px)  and(min-width: 768px)
 	{
-		.index .top .logo{
-			margin-left: 30px;
-			margin-top: 2px;
-		}
-		.index .top .menu{
-			margin-right: 0.5%;
-			width: 60%;
-			margin-top: 0;
-			}
-		.index .bann{
-			font-size: 10px;
-			height: 300px;
-		}
-		.index .banner .textt{
-			width: 90%;
-			padding-top: 40px;
-			margin-left: 15px;
-		}
-		.index .banner h3{
-			font-size: 20px;
-		}
-		.index .banner p{
-			font-size: 14px;
-		}
+		.index .top {
+			width: 30%;
+		}	
+
 		.index .main_1 .clothing{
 		 width: 100%;
 		 margin-left: 30px;
@@ -48,13 +28,11 @@
 		.index .main_2 ul li h4{
 			font-size: 18px;
 		}
-		.index .bottm .bott{
-			margin-left: 30px;
-		}
-		.index .bottm .bot_1{
-			width: 60%;
-		}
 		.index .bottm .bot_2{
-			width: 20%;
+			padding-top: 0;
+		}
+		.index .bottm .bot_2 a{
+			padding-top:5px;
+			width: 100%;
 		}
 	}	

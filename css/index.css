@@ -37,56 +37,47 @@
 	.index{
 		overflow:hidden;
 	}
+	.ddd{
+		
+	}
 		.index .top{
 			position: fixed;
-			width: 100%;
+			width: 10%;
 			z-index: 999;
-			background:#000;
-			transition: all 0.5s;
-		}
-		.index .top_2{
-			height: 73px;
 
 		}
 			.index .tob{
 			margin:0 auto;
-			height: 73px;
-			background:#000;
-			overflow: hidden;
 			top: 0;
 			transition: all 0.5s;
-			max-width: 1140px;
+			margin-top: 20%;
+			margin-left: 20%;
 			}
 			.index .top .logo{
-				margin-top: 5px;
 				float: left;
-				width: 20%;	
+				width: 24%;					
 			}
-				.index .top .logo h3{
-				font-size: 18pt;
-				font-weight: 500;
-				}
-				.index .top .logo p{
-				font-size: 10pt;
+			.index .top .logo h3{
+				font-size: 42pt;
+				font-weight: 400;
 				}
 			.index .top .menu{
 				padding-top: 20px;
 				margin-right:1%;
 				float: right;
 			}
-				.index .top .menu li{
+				.index .top .menu ul:after{
+					content:url("../images/shop.png");
+					letter-spacing: 1px;
 					float: left;
-					margin:0 18px;
+
+				}
+				.index .top .menu li{				
 					cursor:pointer;
 					word-break:break-all;
-					font-size: 14px;
-				}
-				.index .top .menu ul:before{
-					content:url("../images/shop.png");
-					height: 5px;
-					width: 5PX;
-					cursor: pointer;
-					margin-left: 20px;
+					font-size: 25px;
+					color: #000;
+					font-weight:bold;
 				}
 					.index .top .menu li:hover{
 						color: #fab000;
@@ -95,10 +86,10 @@
 			cursor: pointer;
 			width: 30px;
 	    	height: 20px;
-	    	position: absolute;
-	    	top: 25%;
-	    	right: 10%;
 	    	display: none;
+	    	position: fixed;
+	    	right: 10px;
+	    	top: 20px;
 		}
 		.index .top .menu_2 ul{
 			display: none;
@@ -112,45 +103,6 @@
 			    left: 0;
 			    cursor: pointer;
 			}
-		.fix {
-			position: fixed;
-			right: 0;
-			top: 50%;
-			width: 52px;
-			height: 150px;
-			z-index: 998;
-			background-color: #fff;
-			border-radius: 2px; 
-		}
-			.fix a{
-				position: relative;
-				display:inline-block; 
-				width: 48px;
-				height: 40px;
-				margin:5px 2px;
-			}
-			.fix  img{
-				height: 100%;
-			}
-			.fix .qr{
-				width: 10%;
-				position: fixed;
-				top: 50%;
-				left: 50%;
-				display: none;
-			}
-			.fix .wechat:hover .qr{
-				display: inline-block;
-			}
-			.fix .qr img{
-				width: 100%;
-			}
-		.index .top_2{
-			height: 73px;
-			position: static;
-			background-color: #000;
-			display: block;
-		}	
 		.index .men{
 				position:absolute;
 				left: -280px;
@@ -170,26 +122,48 @@
 		}
 		.index .bann{
 			width: 100%;
-			height: 600px;
+			min-height: 620px;
 			overflow: hidden;
+			position: relative;
 		}
-				.index .banner{
-					background: url(../images/banner1.jpg);
-					background-position: center;
-					background-size: cover;
-					background-repeat: no-repeat;
-					width: 100%;	
-					height: 100%;
+				.index .bann .banner{
+				width: 100%;
+				overflow: hidden;
+				position: relative;
+				}
+				.index .bann .banner img{
+					width: 100%;
+				}
+				.index .bann .banner .iem{
+					display: none;
+					position: relative;
+    				transition: left .75s ease-in-out;
+				}
+				.index .bann .banner .iemt{
+					left: 0;			
+				}
+				.index .bann .banner .lef{
+					left: -100%;
+				}
+				.index .bann .banner .bock{
+					display: block;	
+				}
+				.index .bann .banner .righ{
+					left: 100%;
+				}
+				.index .bann .banner .abs{
+					position: absolute;
 				}
 
-			.index .banner .slogan{
+
+/*			.index .banner .slogan{
 				width: 100%;
 				position: relative;
 			}
 
 					.index .banner .textt{
-						position: relative;
 						margin:0 auto;
+						position: relative;
 						max-width: 1140px;
 						padding-top: 100px;
 					}
@@ -215,7 +189,7 @@
 					.index .banner .butt a:hover{
 						background-color: rgba(255,255,255,0);
 						color:#f9b520;
-					}
+					}*/
 		.index .main_1 {
 			width: 100%;
 			height: 600px;
@@ -384,72 +358,44 @@
 		margin: 0 auto;
 		padding-bottom: 40px;
 	}	
-	.index .map{
-		height: 300px
-	}		
-	.index .map iframe{
-		width: 100%;
-		max-width: 100%;
-		height: 300px
-	}
 	.index .bottm{
-		background-color: #000;
-		height: 250px;
+		background-color: #fff;
+		padding-bottom: 5%;
 		width: 100%;
+		color: #000;
 		padding-top: 5%;
 	}
 	.index .bottm .bott{
 		margin:0 auto;
-		max-width: 1140px;
+		max-width: 40%;
+		text-align: center;
 	}
-	.index .bottm .bot_1{
-		width: 75%;
-		float: left;
-		padding-right: 8%;
+
+	.index .bottm .bot_2{
+		border-top: 1px solid #000;
+		padding-top: 60px;
 	}
-	.index .bottm .bot_1 h3{
+	.index .bottm  h3{
 		font-size: 24px;
 		padding-bottom: 15px;
-	}
-	.index .bottm .bot_2{
-		width: 16%;
-		float: left;
+		
 	}
 	.index .bottm p{
 		font-weight: 300;
 		font-size: 14px;
 		line-height: 24px;
+		
 	}
-	.index .bottm .bot_2 h3{
-		padding-bottom: 20px;
-		font-size: 24px;
+	.index .bottm .bot_2 a{
+		float: left;
+		color: #000;
+		font-weight: bold;
+		width: 20%;
 	}
-	.index .bottm .bot_2 span{
-		font-size: 18px;
-		line-height:5px;
-		font-weight:bold;
+	.index .bottm .bot_2 a:hover{
+		color: #999;
 	}
-	.index .bottm .bot_2 .phone,.maps,.mail{
-		padding-bottom: 15px;;
-	}
-	.index .bottm .bot_2 .phone:before{
-		content:url("../images/phone.png");
-		padding-right: 10px;
-		vertical-align:middle;
-  		display:inline-block;
-	}
-	.index .bottm .bot_2 .maps:before{
-		content:url("../images/maps.png");
-		padding-right: 10px;
-		vertical-align:middle;
-  		display:inline-block;
-	}
-	.index .bottm .bot_2 .mail:before{
-		content:url("../images/mail.png");
-		padding-right: 10px;
-		vertical-align:middle;
-  		display:inline-block;
-	}
+
 .talk_con{
             width:600px;
             height:500px;
@@ -505,6 +451,13 @@
             text-align:right;
         }
         .btalk span{
+            display:inline-block;
+            background:#ef8201;
+            border-radius:10px;
+            color:#fff;
+            padding:5px 10px;
+        }
+        .btalk span:hover{
             display:inline-block;
             background:#ef8201;
             border-radius:10px;
