@@ -1,4 +1,4 @@
-		h1, p, a, img, * {
+	h1, p, a, img, * {
 	    margin: 0;
 	    padding: 0;
 	    list-style: none;
@@ -42,7 +42,7 @@
 	}
 		.index .top{
 			position: fixed;
-			width: 10%;
+			width: 15%;
 			z-index: 999;
 
 		}
@@ -70,7 +70,6 @@
 					content:url("../images/shop.png");
 					letter-spacing: 1px;
 					float: left;
-
 				}
 				.index .top .menu li{				
 					cursor:pointer;
