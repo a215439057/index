@@ -7,8 +7,24 @@
 	<link rel="stylesheet" type="text/css" href="css/index.css">
 	<link rel="stylesheet" type="text/css" href="css/pubul.css">	
 	<link rel="stylesheet" type="text/css" href="css/phone.css">
-	<script type="text/javascript" src="js/index.js" ></script>
-	<script type="text/javascript" src="js/banner.js" ></script>
+	<script type="text/javascript" src="js/index.js"></script>
+	<script type="text/javascript" src="js/banner.js"></script>
+	<script type="text/javascript">
+	function addLoadEvent(func){ 
+    var oldonload=window.onload; 
+    if(typeof window.onload!='function'){ 
+        window.onload=func; 
+    }else{ 
+        window.onload=function(){ 
+            oldonload(); 
+            func(); 
+        } 
+    } 
+} 
+ 
+addLoadEvent(a);
+addLoadEvent(b);
+	</script>
 </head>
 <body >
 	<div class="index">

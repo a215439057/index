@@ -1,4 +1,4 @@
-window.onload = function(){
+function c(){
 
 	        var Words = document.getElementById("words");
             var Who = document.getElementById("who");

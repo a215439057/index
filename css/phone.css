@@ -65,6 +65,9 @@
 			margin: 0 auto;
 			width: 80%;
 		}
+		.index .main_1 .clothing{
+			 margin-left: 0;
+		}
 		.index .main_1 .clothing h3{
 			font-size: 40px;
 			font-weight: 500;

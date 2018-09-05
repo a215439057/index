@@ -1,4 +1,4 @@
-window.onload = function(){
+function b(){
 	var imag =1;
 	var imbg =2;
 	var imcg =3;

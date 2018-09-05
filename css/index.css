@@ -366,13 +366,14 @@
 	}
 	.index .bottm .bott{
 		margin:0 auto;
-		max-width: 40%;
+		max-width: 60%;
 		text-align: center;
 	}
 
 	.index .bottm .bot_2{
 		border-top: 1px solid #000;
 		padding-top: 60px;
+		width: 100%;
 	}
 	.index .bottm  h3{
 		font-size: 24px;
