@@ -5,9 +5,12 @@
 		}	
 		.index .top{
 			height: 73px;
+			position: static;
+			
 		}
 		.index .tob{
 			margin-top: 0;
+			color: #000;
 		}
 		.index .top .menu{
 			display: block;
@@ -162,6 +165,8 @@
             width:56px;
             height:30px;
         }
-
+		.index .clothing ul li {
+			width: 100%;
+		}
 	}
 	

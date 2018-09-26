@@ -95,7 +95,7 @@
 		}
 		
 			.index .top .menu_2 span{
-				background-color: #fff;
+				background-color: #000;
 			    margin-bottom: 6px;
 			    height: 3px;
 			    width: 100%;
@@ -153,42 +153,6 @@
 				.index .bann .banner .abs{
 					position: absolute;
 				}
-
-
-/*			.index .banner .slogan{
-				width: 100%;
-				position: relative;
-			}
-
-					.index .banner .textt{
-						margin:0 auto;
-						position: relative;
-						max-width: 1140px;
-						padding-top: 100px;
-					}
-					.index .banner h3{
-						font-size: 40px;
-						margin-bottom: 5%;				
-					}
-					.index .banner p{
-						font-size: 18px;
-						margin-bottom: 5%;	
-						padding-right: 450px;
-					}
-					.index .banner .butt a{
-						font-size: 16px;
-						padding: 12px 32px;
-						background:#f9b520;
-						border-radius: 8px;
-						font-family: "Helvetica",Sans-serif;
-						border-style: solid;
-						border-color: #f9b520;
-						border-width: 2px;
-					}
-					.index .banner .butt a:hover{
-						background-color: rgba(255,255,255,0);
-						color:#f9b520;
-					}*/
 		.index .main_1 {
 			width: 100%;
 			height: 600px;
@@ -464,3 +428,60 @@
             color:#fff;
             padding:5px 10px;
         }
+        .index .clothing{
+			width: 95%;
+			margin: 0 auto;
+			padding-top: 40px;
+        }
+        .index .clothing ul li{
+			width: 32%;
+			float: left;
+			margin-right: 10px;
+			margin-bottom: 10px;
+			height: 290px;
+			border: 1px solid #ccc;
+			text-align: center;
+			color: #777;
+			font-size: 1.4rem;
+			border-radius:2px;
+        }
+        .index .clothing ul li .clothing_1{
+			overflow:hidden;
+			height: 250px;
+			width: 95%;	
+			margin: 0 auto;
+			border-left: 1px solid #ccc;
+			border-right: 1px solid #ccc;
+			border-bottom: 1px solid #ccc;
+			
+        }
+        .index .clothing ul li .suit {
+			background:url("../images/shop(15).jpg") no-repeat;		
+			background-size:cover;
+			background-position:center;					
+        }      
+        .index .clothing ul li .catering {
+			background:url("../images/shop(1).jpg") no-repeat;
+			background-size: cover;
+			background-position:center;					
+        } 
+        .index .clothing ul li .work {
+			background:url("../images/shop(8).jpg") no-repeat;
+			background-size: cover;
+			background-position:center;			
+        } 
+        .index .clothing ul li .company {
+			background:url("../images/shop(16).jpg") no-repeat;
+			background-size: cover;
+			background-position:center;			
+        } 
+        .index .clothing ul li .uniform {
+			background:url("../images/shop(11).jpg") no-repeat;
+			background-size: cover;
+			background-position:center;			
+        }                                           
+        .index .clothing ul li .other {
+			background:url("../images/shop(4).jpg") no-repeat;
+			background-size: cover;
+			background-position:center;			
+        }        
