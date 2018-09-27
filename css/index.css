@@ -438,11 +438,12 @@
 			float: left;
 			margin-right: 10px;
 			margin-bottom: 10px;
-			height: 290px;
+			height: 350px;
 			border: 1px solid #ccc;
 			text-align: center;		
 			font-size: 1.4rem;
 			border-radius:2px;
+			padding-top:20px; 
         }
         .index .clothing .one{
 		
@@ -453,11 +454,10 @@
         .index .clothing ul li .clothing_1{
 			overflow:hidden;
 			height: 250px;
-			width: 95%;	
+			width: 94%;	
+			margin-bottom: 20px;
 			margin: 0 auto;
-			border-left: 1px solid #ccc;
-			border-right: 1px solid #ccc;
-			border-bottom: 1px solid #ccc;			
+			border: 1px solid #ccc;	
         }
         .index .clothing ul li .catering {
 			background:url("../images/shop(1).jpg") no-repeat ;		
@@ -494,3 +494,21 @@
 			background-size: cover;
 			background-position:center;			
         } 
+    .index .smain {
+    	max-width: 1280px;
+    	margin: 0 auto;
+    	color: #000;
+    }    
+    .index .smain .mainleft{
+    	float: left;
+    	width: 30%;
+    	position: fixed;
+    }
+    .index .smain .mainright{
+    	float: left;
+    	width: 68%;
+		
+    }
+    .index .smain a{
+    	color: #000;
+    }
