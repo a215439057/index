@@ -11,7 +11,6 @@ function b(){
 		},3000);
 	}
 		function dd(){			
-			var ban =document.getElementById('banner');
 			var bans =document.getElementById('banner').getElementsByTagName('img');			
 			for (var i = 0; i < bans.length; i++) {
 				bans[i].className ='iem';
