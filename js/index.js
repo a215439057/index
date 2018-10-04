@@ -1,4 +1,5 @@
 function a(){
+	
 		document.getElementById('menu_2').onclick=function(){
 			if (document.getElementById('men').offsetLeft=="-280") 
 				{
@@ -14,75 +15,72 @@ function a(){
 	  if(o.attachEvent)o.attachEvent('on'+evt,func);
 	    else if(o.addEventListener)o.addEventListener(evt,func,false);
 	}
-
-	function prev(){
-				var imag =1;
-				var imbg =2;
-				var imcg =3;
-				var imdg =1;
-			var ban =document.getElementById('new_1');
-			var bans =document.getElementById('banner').getElementsByTagName('img');			
-			for (var i = 0; i < bans.length; i++) {
-				bans[i].className ='iem';
-		}
-			bans[imag-1].className='iem '+'iemt '+'lef '+'bock'+' abs';
-			bans[imbg-1].className='iem '+'iemt '+'bock';
-			bans[imcg-1].className='iem '+'righ '+'bock'+' abs';
-		if (imag == 4) {
-				imag = 1;	
+function c(){
+		var imag =1;
+		var imbg =2;
+		var imcg =3;
+		var ima =3;
+		var imb =2;
+		var imc =1;		
+		document.getElementById('prev').onclick=function(){
+				var news = document.querySelectorAll("#new_1");	
+				for (var i = 0; i < news.length; i++) {
+					news[i].className ='iem';
 			}
-		else{
-					
-				imag +=1;				
-			}
-		if (imbg == 4) {
-				imbg = 1;	
-			}
-		else{
-					
-				imbg +=1;				
-			}
-		if (imcg == 4) {
-				imcg = 1;	
-			}
-		else{
-					
-				imcg +=1;				
-			}	
+				news[imag-1].className='iem '+'iemt '+'lef '+'bock'+' abs';
+				news[imbg-1].className='iem '+'iemt '+'bock';
+				news[imcg-1].className='iem '+'righ '+'bock'+' abs';
+			if (imag == 3) {
+					imag = 1;	
+				}
+			else{
+						
+					imag +=1;				
+				}
+			if (imbg == 3) {
+					imbg = 1;	
+				}
+			else{
+						
+					imbg +=1;				
+				}
+			if (imcg == 3) {
+					imcg = 1;	
+				}
+			else{
+						
+					imcg +=1;				
+				}	
 	}
 	
-	function next(){
-				var imag =1;
-				var imbg =2;
-				var imcg =3;
-				var imdg =1;
-			var ban =document.getElementById('new_1');
-			var bans =document.getElementById('banner').getElementsByTagName('img');			
-			for (var i = 0; i < bans.length; i++) {
-				bans[i].className ='iem';
+	document.getElementById('next').onclick=function(){
+			var news = document.querySelectorAll("#new_1");
+			for (var i = 0; i < news.length; i++) {
+				news[i].className ='iem';
 		}
-			bans[imag-1].className='iem '+'iemt '+'lef '+'bock'+' abs';
-			bans[imbg-1].className='iem '+'iemt '+'bock';
-			bans[imcg-1].className='iem '+'righ '+'bock'+' abs';
-		if (imag == 4) {
-				imag = 1;	
-			}
-		else{
-					
-				imag +=1;				
-			}
-		if (imbg == 4) {
-				imbg = 1;	
-			}
-		else{
-					
-				imbg +=1;				
-			}
-		if (imcg == 4) {
-				imcg = 1;	
-			}
-		else{
-					
-				imcg +=1;				
-			}	
+			news[imcg-1].className='iem '+'iemt '+'lef '+'bock'+' abs';
+				news[imbg-1].className='iem '+'iemt '+'bock';
+				news[imag-1].className='iem '+'righ '+'bock'+' abs';
+			if (imag == 3) {
+					imag = 1;	
+				}
+			else{
+						
+					imag +=1;				
+				}
+			if (imbg == 3) {
+					imbg = 1;	
+				}
+			else{
+						
+					imbg +=1;				
+				}
+			if (imcg == 3) {
+					imcg = 1;	
+				}
+			else{
+						
+					imcg +=1;				
+				}	
 	}
+}
