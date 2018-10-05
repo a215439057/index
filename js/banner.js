@@ -1,8 +1,7 @@
 function b(){
-	var imag =1;
-	var imbg =2;
-	var imcg =3;
-	var imdg =1;
+	var imag =2;
+	var imbg =3;
+	var imcg =4;
 	play();
 //图片循环 //
 	function play(){
@@ -15,28 +14,25 @@ function b(){
 			for (var i = 0; i < bans.length; i++) {
 				bans[i].className ='iem';
 		}
-			bans[imag-1].className='iem '+'iemt '+'lef '+'bock'+' abs';
-			bans[imbg-1].className='iem '+'iemt '+'bock';
+			bans[imag-1].className='iem '+'iemt '+'lef '+'bock'+' abs'+' trans';
+			bans[imbg-1].className='iem '+'iemt '+'bock'+' trans';
 			bans[imcg-1].className='iem '+'righ '+'bock'+' abs';
 		if (imag == 4) {
 				imag = 1;	
 			}
-		else{
-					
+		else{					
 				imag +=1;				
 			}
 		if (imbg == 4) {
 				imbg = 1;	
 			}
-		else{
-					
+		else{				
 				imbg +=1;				
 			}
 		if (imcg == 4) {
 				imcg = 1;	
 			}
-		else{
-					
+		else{				
 				imcg +=1;				
 			}						
 		

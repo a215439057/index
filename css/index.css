@@ -147,7 +147,9 @@
 				.index  .iem{
 					display: none;
 					position: relative;
-    				transition:all .75s ease-in-out;
+				}
+				.index .trans{
+					transition:all .75s ease-in-out;
 				}
 				.index  .iemt{
 					left: 0;			
@@ -257,7 +259,7 @@
 							background: #f9b520;
 						}			
 		.index .interval{
-			background-color: #000;
+			background-color: #111;
 			width: 100%;
 			height: 300px;
 			margin-bottom: 30px;
@@ -621,9 +623,8 @@
 			overflow: hidden;
 			position: relative;
       }
-     .index .smain .mainright .new .prev,.next{
-		background-color: #fff;
-		width: 40px;
+    .index .smain .mainright .new .prev,.next{
+     	width: 20px;
 		position: absolute;
 		font-size: 4rem;
 		top: 50%;
@@ -631,10 +632,19 @@
 		padding-right: 10px;
 		text-align: center;
 		border:none;
-		height: 80px;
+		height: 60px;
 		z-index: 20;
 		cursor: pointer;
-     }
+    }
+    .index .smain .mainright .new .prev:hover,.next:hover{
+    	opacity: 0.8;
+    }
+    .index .smain .mainright .new .prev{
+    	background: url('../images/prev.png') no-repeat;
+    } 
+    .index .smain .mainright .new .next{
+    	background: url('../images/next.png') no-repeat;
+    } 
     .index .smain .mainright .new .new_1{
 		position: relative;	
     }
@@ -644,7 +654,7 @@
      	z-index: 10;
      }
     .index .smain .mainright .new ul li{
-		width: 32%;
+		width: 32.2%;
 		float: left;
 		font-weight: normal;
 		text-align: center;
