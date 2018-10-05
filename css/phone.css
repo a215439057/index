@@ -168,5 +168,52 @@
 		.index .clothing ul li {
 			width: 100%;
 		}
+		.index .smain{
+			width: 100%;
+			padding-bottom: 0;
+		}
+        .index .smain .mainleft{
+        	width: 96%;
+        	margin: 0 auto;
+        	text-align: center;
+        	float: none;
+        }
+        .index .smain .mainright{
+        	width: 96%;
+        	margin: 0 auto;
+        	text-align: center;
+        	float: none;
+        }        
+        .index .smain .mainright .top_1{
+        	left:24%;
+    	}
+    	.index .smain .mainright .bun{
+    		left: 30%;
+    	}
+	    .index .smain .mainright .top_2{
+	    	top: 60%;
+	    	left: 35%;
+	    }
+	    .index .smain .mainright .top_3{
+	    	top:60%;
+	    	left: 25%;
+	    }  
+
+	    .index .smain .mainright .cater .cateringg{
+	    	height: 250px;
+	    }
+	    .index .smain .mainright .new .prev,.next{
+			top: 20%;
+	     }
+	     .index .smain .mainright .new .next{
+			right: 2%;
+	     }
+	    .index .smain .mainright .new ul li{
+	    	width: 30%;
+	    }
+	    .index .smain .mainright .new ul li img{
+		margin-bottom: 30px;
+      	height: 250px;
+      }
 	}
 	

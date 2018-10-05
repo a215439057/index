@@ -44,4 +44,10 @@
         .index .clothing ul li{
 			width: 48%;
         }
+        .index .smain{
+        	width: 96%;
+        }
+        .index .smain .mainright .new ul li{
+        	width: 32%;
+        }
 	}	
