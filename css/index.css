@@ -97,7 +97,7 @@
 			width: 30px;
 	    	height: 20px;
 	    	display: none;
-	    	position: fixed;
+	    	position: absolute;
 	    	right: 10px;
 	    	top: 20px;
 		}
@@ -654,7 +654,7 @@
     } 
     .index .smain .mainright .new .next{
     	background: url('../images/next.png') no-repeat;
-    	right: 1%;
+    	right: 0%;
     } 
     .index .smain .mainright .new .new_1{
 		position: relative;	

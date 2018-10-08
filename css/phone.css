@@ -6,7 +6,7 @@
 		.index .top{
 			height: 73px;
 			position: static;
-			
+			width: 100%;
 		}
 		.index .tob{
 			margin-top: 0;
@@ -201,19 +201,25 @@
 
 	    .index .smain .mainright .cater .cateringg{
 	    	height: 250px;
+	    	 background-position: bottom;
 	    }
 	    .index .smain .mainright .new .prev,.next{
-			top: 20%;
+			top: 50%;
 	     }
 	     .index .smain .mainright .new .next{
 			right: 2%;
 	     }
 	    .index .smain .mainright .new ul li{
-	    	width: 30%;
+	    	width: 96%;
 	    }
 	    .index .smain .mainright .new ul li img{
 		margin-bottom: 30px;
       	height: 250px;
+      	width: 160px;
       }
+      .index .smain .mainright .new .neww{
+      	height: 1020px;
+      }
+
 	}
 	
