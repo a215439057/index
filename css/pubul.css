@@ -50,4 +50,12 @@
         .index .smain .mainright .new ul li{
         	width: 32%;
         }
+		.index .smain .cont .butn{
+			position: relative;
+			width: 10%;
+			padding: 10px 40px;
+		}
+		.index .smain .cont .send{
+		padding-top: 17%;
+	}
 	}	

@@ -728,12 +728,22 @@
 	.index .smain .cont p{
 		margin-bottom: 10px;
 	}
-	.index .smain .cont button{
+	.index .smain .cont .butn{
 		padding:20px 60px;
 		background-color: #fff;
-		border-bottom: 1px solid  #777;
+		border: 1px solid  #777;
 		border-width:1px;
 		position: absolute;
 		right: 0;
 		top: 50%;
+		cursor: pointer;
+		text-align: center;
+	}
+	.index .smain .cont .send{
+		padding-top: 13%;
+	}
+	.index .smain .cont h3:before{
+		background:"\4537"；
+		content:"\4537";
+		
 	}
