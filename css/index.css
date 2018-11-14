@@ -571,6 +571,7 @@
     .index .smain .mainleft{
     	float: left;
     	width: 30%;
+    	height: 100%;
     }
     .index .smain .mainleft ul li{
     	padding-top: 20px;
@@ -746,4 +747,30 @@
 		background:"\4537"；
 		content:"\4537";
 		
+
+	}
+	.index .pro{
+		width: 90%;
+		margin:0 auto;
+	}
+	.index  #mainle ul li{
+		cursor: pointer;
+	}
+	.index .pro ul li{
+		width: 24%;
+		float: left;
+		margin-right: 1%;
+		margin-top: 1%;
+		background-color: #eee;
+		text-align: center;
+	}
+	.index .pro ul li:hover{
+		opacity: 0.8;
+	}
+	.index .pro ul li p{
+		margin: 2% 0;
+	}
+	.index .pro ul li img{
+		width: 100%;
+		margin-bottom: 4%;
 	}

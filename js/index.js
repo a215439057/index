@@ -80,3 +80,152 @@ function c(){
 		}		
 	}
 
+	function d(){
+		var pro1 =document.querySelectorAll("#pro-1");
+		var pro2 =document.querySelectorAll("#pro-2");
+		var pro3 =document.querySelectorAll("#pro-3");
+		var pro4 =document.querySelectorAll("#pro-4");
+		var pro5 =document.querySelectorAll("#pro-5");
+		var pro6 =document.querySelectorAll("#pro-6");
+		var pro7 =document.querySelectorAll("#pro-7");
+		document.getElementById('all').onclick=function(){
+			for (var u = 0; u < pro1.length; u++) {
+				pro1[u].style.display ="block";
+			}
+			for (var i = 0; i < pro2.length; i++) {
+				pro2[i].style.display ="block";
+			}
+			for (var o = 0; o < pro3.length; o++) {
+				pro3[o].style.display ="block";
+			}
+			for (var p = 0; p < pro4.length; p++) {
+				pro4[p].style.display ="block";
+			}
+			for (var j = 0; j < pro5.length; j++) {
+				pro5[j].style.display ="block";
+			}
+			for (var k = 0; k < pro6.length; k++) {
+				pro6[k].style.display ="block";
+			}
+		}
+		document.getElementById('school').onclick=function(){
+			for (var u = 0; u < pro1.length; u++) {
+				pro1[u].style.display ="block";
+			}
+			for (var i = 0; i < pro2.length; i++) {
+				pro2[i].style.display ="none";
+			}
+			for (var o = 0; o < pro3.length; o++) {
+				pro3[o].style.display ="none";
+			}
+			for (var p = 0; p < pro4.length; p++) {
+				pro4[p].style.display ="none";
+			}
+			for (var j = 0; j < pro5.length; j++) {
+				pro5[j].style.display ="none";
+			}
+			for (var k = 0; k < pro6.length; k++) {
+				pro6[k].style.display ="none";
+			}
+		}
+		document.getElementById('group').onclick=function(){
+			for (var u = 0; u < pro1.length; u++) {
+				pro1[u].style.display ="none";
+			}
+			for (var i = 0; i < pro2.length; i++) {
+				pro2[i].style.display ="block";
+			}
+			for (var o = 0; o < pro3.length; o++) {
+				pro3[o].style.display ="none";
+			}
+			for (var p = 0; p < pro4.length; p++) {
+				pro4[p].style.display ="none";
+			}
+			for (var j = 0; j < pro5.length; j++) {
+				pro5[j].style.display ="none";
+			}
+			for (var k = 0; k < pro6.length; k++) {
+				pro6[k].style.display ="none";
+			}
+		}
+		document.getElementById('company').onclick=function(){
+			for (var u = 0; u < pro1.length; u++) {
+				pro1[u].style.display ="none";
+			}
+			for (var i = 0; i < pro2.length; i++) {
+				pro2[i].style.display ="none";
+			}
+			for (var o = 0; o < pro3.length; o++) {
+				pro3[o].style.display ="block";
+			}
+			for (var p = 0; p < pro4.length; p++) {
+				pro4[p].style.display ="none";
+			}
+			for (var j = 0; j < pro5.length; j++) {
+				pro5[j].style.display ="none";
+			}
+			for (var k = 0; k < pro6.length; k++) {
+				pro6[k].style.display ="none";
+			}
+		}
+		document.getElementById('work').onclick=function(){
+			for (var u = 0; u < pro1.length; u++) {
+				pro1[u].style.display ="none";
+			}
+			for (var i = 0; i < pro2.length; i++) {
+				pro2[i].style.display ="none";
+			}
+			for (var o = 0; o < pro3.length; o++) {
+				pro3[o].style.display ="none";
+			}
+			for (var p = 0; p < pro4.length; p++) {
+				pro4[p].style.display ="block";
+			}
+			for (var j = 0; j < pro5.length; j++) {
+				pro5[j].style.display ="none";
+			}
+			for (var k = 0; k < pro6.length; k++) {
+				pro6[k].style.display ="none";
+			}
+		}
+		document.getElementById('other').onclick=function(){
+			for (var u = 0; u < pro1.length; u++) {
+				pro1[u].style.display ="none";
+			}
+			for (var i = 0; i < pro2.length; i++) {
+				pro2[i].style.display ="none";
+			}
+			for (var o = 0; o < pro3.length; o++) {
+				pro3[o].style.display ="none";
+			}
+			for (var p = 0; p < pro4.length; p++) {
+				pro4[p].style.display ="none";
+			}
+			for (var j = 0; j < pro5.length; j++) {
+				pro5[j].style.display ="block";
+			}
+			for (var k = 0; k < pro6.length; k++) {
+				pro6[k].style.display ="none";
+			}
+		}
+		document.getElementById('items').onclick=function(){
+			for (var u = 0; u < pro1.length; u++) {
+				pro1[u].style.display ="none";
+			}
+			for (var i = 0; i < pro2.length; i++) {
+				pro2[i].style.display ="none";
+			}
+			for (var o = 0; o < pro3.length; o++) {
+				pro3[o].style.display ="none";
+			}
+			for (var p = 0; p < pro4.length; p++) {
+				pro4[p].style.display ="none";
+			}
+			for (var j = 0; j < pro5.length; j++) {
+				pro5[j].style.display ="none";
+			}
+			for (var k = 0; k < pro6.length; k++) {
+				pro6[k].style.display ="block";
+			}
+		}						
+	}
