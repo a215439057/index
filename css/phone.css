@@ -178,6 +178,12 @@
         	text-align: center;
         	float: none;
         }
+         .index .smain .proleft{
+        	width: 96%;
+        	margin: 0 auto;
+        	text-align: center;
+        	float: none;
+        }       
         .index .smain .mainright{
         	width: 96%;
         	margin: 0 auto;
@@ -217,9 +223,17 @@
       	height: 250px;
       	width: 160px;
       }
-      .index .smain .mainright .new .neww{
+    	.index .smain .mainright .new .neww{
       	height: 1020px;
       }
-
+    	.index .pro{
+			width: 98%;
+			margin-top:10px;
+    	}
+			.index .pro ul li{
+			width: 48%;
+			margin-bottom: 6px;
+			margin-right: 6px;
+		}
 	}
 	

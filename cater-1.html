@@ -7,8 +7,9 @@
 	<link rel="stylesheet" type="text/css" href="css/index.css">
 	<link rel="stylesheet" type="text/css" href="css/pubul.css">	
 	<link rel="stylesheet" type="text/css" href="css/phone.css"> 	
-	<script type="text/javascript" src="js/index.js" ></script>
-	<script type="text/javascript">
+	<script src="js/index.js"></script>
+	<script src="js/details.js"></script>
+	<script>
 	function addLoadEvent(func){ 
     var oldonload=window.onload; 
     if(typeof window.onload!='function'){ 
@@ -21,12 +22,12 @@
     } 
 } 
 	addLoadEvent(a);
+	addLoadEvent(h);
 	</script>	
-	
 </head>
 <body>
 	<div class="index">
-		<div class="top" id="top" >
+		<div class="top" id="top" style="position: absolute;" >
 			<div class="tob" id="tob">
 				<div class="logo">
 					<h3>Shop</h3>
@@ -69,26 +70,39 @@
 		</div>
 		<div class="bann">
 			<div class="banner">
-				<img src="./images/banner1.jpg">
+				<img src="images/loading.gif" data-src="./images/banner1.jpg">
 			</div>
 		</div>
-		<div class="xian"><p>Catering clothing</p></div>
-		<div class="smain">
-			<div class="mainleft">
-				<ul>
-					<li style="color: #ccc; font-size:1.2rem">Catering clothing</li>
-					<li><a href="./school.html">School clothing</a></li>
-					<li><a href="./group.html">Group clothing</a></li>
-					<li><a href="./company.html">Company uniform</a></li>
-					<li><a href="./work.html">Work attire</a></li>				
-					<li><a href="./other.html">Other</a></li>
-					<li><a href="./items.html">Disposable items</a></li>
-				</ul>
+		<div class="detail">
+			<div class="deta">
+				<div class="phto">
+					<ul>
+						<li>
+							<div class="pht" id="pht-1" mouseover="ph1"></div>
+							<div class="pht" id="pht-2" mouseover="ph2"></div>
+						</li>
+						<li>
+							<div class="pht-2" id="pht-3"></div>
+						</li>
+					</ul>
+				</div>
+				<div class="commodity">
+					<h3 id="name">Suit</h3>			
+					<p>HK:$<span id="money">???</span></p>
+					<p>Stock:<span id="stock">???</span></p>
+					<form name="input" action="html_form_action.php" method="get">
+						Quantity: -<input type="text" name="user" class="user">+
+					</form>
+					<select>
+						<option class="colour" value="purple" id="col">purple</option>
+					</select>
+					<div><input type="submit" value="Submit" class="butt"></div>
+				</div>
+				<div class="clear"></div>
 			</div>
-
-				<div class="clear"></div>	
+			<div class="page">
+				
 			</div>
-			<div class="clear"></div>	
 		</div>
 		<div class="bottm">
 			<div class="bott">
@@ -105,8 +119,7 @@
 						<a href="">INSTAGRAM</a>
 						<a href="">FACEBOOK</a>
 					</ul>			
-				</div>	
-				
+				</div>					
 			</div>
 		</div>		
 	</div>
