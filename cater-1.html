@@ -34,7 +34,7 @@
 				</div>
 				<div class="menu">
 					<ul>
-						<a href="./index.html"><li >HOME</li></a>
+						<a href="./index.html"><li>HOME</li></a>
 						<a href="./shop.html"><li class="shop">SHOP</li></a>
 						<a href="./product.html"><li>PRODUCT</li></a>
 						<a href="./contact.html"><li>CONTACT US</li></a>
@@ -78,30 +78,53 @@
 				<div class="phto">
 					<ul>
 						<li>
-							<div class="pht" id="pht-1" mouseover="ph1"></div>
-							<div class="pht" id="pht-2" mouseover="ph2"></div>
+							<div class="pht" id="pht-1" onmousemove="pht1()" ></div>
+							<div class="pht" id="pht-2" onmousemove="pht2()" ></div>
+							<div class="pht" id="pht-3" onmousemove="pht3()" ></div>
 						</li>
 						<li>
-							<div class="pht-2" id="pht-3"></div>
+							<div class="pht-2" id="php"></div>
 						</li>
 					</ul>
 				</div>
 				<div class="commodity">
 					<h3 id="name">Suit</h3>			
-					<p>HK:$<span id="money">???</span></p>
-					<p>Stock:<span id="stock">???</span></p>
-					<form name="input" action="html_form_action.php" method="get">
-						Quantity: -<input type="text" name="user" class="user">+
-					</form>
+					<p>MONEY:<span class="money">HK$<span id="money">???</span></span></p>
+					<p>Stock:<span id="stock" class="money">???</span></p>	
+					<div>		
+						Quantity:
+						<input type="submit" value="-" onclick="jian()" class="zj" id="jian">
+						<input type="text" name="quan" class="quan" id="quan" onchange="oncha()" value="1">
+						<input type="submit" value="+" onclick="jia()" class="zj" id="jia">
+					</div>	
 					<select>
-						<option class="colour" value="purple" id="col">purple</option>
+					<option  value="purple" id="col">purple</option>
+					<option  value="pu1rple" id="col">p1urple</option>
+					<option  value="pur1ple" id="col">pur1ple</option>
+					<option  value="pur1ple" id="col">pur1ple</option>
 					</select>
-					<div><input type="submit" value="Submit" class="butt"></div>
+					<p>Total Price:<span class="money">HK$<span id="total">999</span></span></p>
+					<div><input type="submit" value="BUY" class="butt"></div>
 				</div>
 				<div class="clear"></div>
 			</div>
 			<div class="page">
-				
+				<div class="lei">
+					<span class="">门襟:单排两粒扣</span>
+					<span class="">误差范围:1-2cm</span>
+					<span class="">适合季节:四季</span>
+					<span class="">面料名称:聚酯纤维</span>
+					<span class="">主面料成分:醋酯纤维</span>
+					<span class="">主面料成分的含量:70(%)</span>
+					<span class="">领型:无领</span>	
+					<span class="">开衩方式:后中开衩</span>	
+					<span class="">版型:修身型</span>
+					<span class="">厚薄:常规</span>	
+					<span class="">上市年份/季节:2018年夏季</span>	
+					<span class="">款式细节:提花</span>
+					<span class="">尺码:48,50,52,54,56,58</span>
+				</div>	
+				<div class="psp" id="psp"></div>
 			</div>
 		</div>
 		<div class="bottm">

@@ -793,11 +793,12 @@
 		margin: 0 auto;
 		padding-top: 5%;
 	}
-	.index .detail .deta{
+	.index .detail .deta,.page{
 		border: 1px #eee solid;
 		width: 80%;
 		margin:0 auto;
 		padding: 20px 20px;
+		margin-bottom: 10px;
 	}
 	.index .detail .deta .phto{
 		width: 49%;
@@ -834,9 +835,9 @@
 		font-size: 2rem;
 		padding-bottom: 20px;
 	}
-	.index .detail .deta .commodity p,form{
+	.index .detail .deta .commodity p,form,select{
 		font-size: 1.2rem;
-		padding-bottom: 10px;
+		margin-bottom: 10px;
 	}
 	.index .detail .deta .commodity .user{
 		width: 80px;
@@ -853,4 +854,40 @@
 		width: 150px;
 		color: #fff;
 		background: #ff7300;
+	}
+	.index .detail .deta .commodity .quan{
+		width: 60px;
+		font-size: 1.4rem;
+		text-align: center;
+	}
+	.index .detail .deta .commodity .zj{
+		font-size: 1.3rem;
+		border: 1px #000 solid;
+		padding:2px 10px;
+		display: inline-block;
+		text-align: center;	
+	    cursor: pointer; 
+	}
+	.index .detail .deta .commodity div{
+	margin-bottom: 15px;
+	font-size: 1.4rem;
+	}
+	.index .detail .deta .commodity .money{
+		color: #ff7300;
+		font-size: 1.4rem;
+		margin-left: 10px;
+	}
+	.index .detail .page span{
+		padding:5px;
+		display: inline-block;
+		margin-bottom: 10px;
+		width: 18%;
+		font-size: 0.9rem;
+	}
+	.index .detail .page .psp{
+		margin: 0 auto;
+		width: 750px;
+	}
+	.index .detail .page .psp img{
+		width: 750px;
 	}
