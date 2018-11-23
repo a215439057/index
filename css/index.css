@@ -789,7 +789,7 @@
 	}
 	.index .detail{
 		color: #000;
-		width: 80%;
+		width: 70%;
 		margin: 0 auto;
 		padding-top: 5%;
 	}
@@ -801,12 +801,12 @@
 		margin-bottom: 10px;
 	}
 	.index .detail .deta .phto{
-		width: 49%;
+		width: 45%;
 		float: left;
 		height: 400px;
 	}
 	.index .detail .deta .commodity{
-		margin-left: 6%;
+		margin-left: 2%;
 		width: 44%;
 		float: left;
 		height: 400px;
@@ -853,7 +853,13 @@
 		text-align: center;
 		width: 150px;
 		color: #fff;
-		background: #ff7300;
+		background: #ff0036;
+		cursor: pointer;
+	}
+	.index .detail .deta .commodity .butt:hover{
+		color: #ff0036;
+		background:#ffeded;
+		border: 1px solid #ff0036;
 	}
 	.index .detail .deta .commodity .quan{
 		width: 60px;
@@ -873,7 +879,7 @@
 	font-size: 1.4rem;
 	}
 	.index .detail .deta .commodity .money{
-		color: #ff7300;
+		color: #ff0036;
 		font-size: 1.4rem;
 		margin-left: 10px;
 	}
