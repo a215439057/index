@@ -801,7 +801,6 @@
 		margin-bottom: 10px;
 	}
 	.index .detail .deta .phto{
-		width: 45%;
 		float: left;
 		height: 400px;
 	}
@@ -854,7 +853,7 @@
 		width: 150px;
 		color: #fff;
 		background: #ff0036;
-		cursor: pointer;
+		cursor: pointer; 
 	}
 	.index .detail .deta .commodity .butt:hover{
 		color: #ff0036;

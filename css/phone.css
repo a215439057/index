@@ -235,5 +235,34 @@
 			margin-bottom: 6px;
 			margin-right: 6px;
 		}
+		.index .detail{
+			width: 95%;
+		}
+		.index .detail .deta, .page,.com{
+			width: 95%;
+			padding:20px 0;
+		}
+		.index .detail .deta .phto{
+			width: 95%;
+			margin: 0 auto;
+		}
+		.index .detail .deta .pht-2{
+			width: 200px;
+		}
+		.index .detail .deta .commodity{
+			width: 95%;
+			text-align: center;
+			height:auto; 
+		}
+		.index .detail .page span{
+			width: 100%;
+			text-align: center;
+		}
+		.index .detail .page .psp{
+			width: auto;
+		}
+		.index .detail .page .psp img{
+			width: 100%;
+		}
 	}
 	

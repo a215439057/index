@@ -57,5 +57,17 @@
 		}
 		.index .smain .cont .send{
 		padding-top: 17%;
-	}
+		}
+		.index .detail{
+			width:90%;
+		}
+		.index .detail .deta, .page{
+			width: 100%;
+		}
+		.index .detail .deta .phto{
+			width: 50%;
+		}
+		.index .detail .deta .commodity{
+			width: 30%;
+		}
 	}	
